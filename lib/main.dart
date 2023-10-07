@@ -117,7 +117,7 @@ class ProfileScreen extends StatelessWidget {
     return GridView.count(
       shrinkWrap: true,
       crossAxisCount: crossAxisCount,
-      children: List.generate(6, (index) {
+      children: List.generate(6, (index){
         final imageUrl =
             'https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2F736x%2Fb3%2F02%2Fd1%2Fb302d1ced0244be8eec910b31b5e125f.jpg&tbnid=cT0zbL-BPk3CnM&vet=12ahUKEwiGrKz38NKBAxVISWwGHUpUDxsQxiAoA3oECAAQFw..i&imgrefurl=https%3A%2F%2Fwww.pinterest.co.uk%2Fpin%2Fthats-one-giant-leap-for-mankind-cleverly-posed-photos-show-man-jumping-over-the-moon-holding-it-and-even-slam-dunking-it--193021534002334108%2F&docid=q-FumkYgGdabjM&w=634&h=859&itg=1&q=picture&ved=2ahUKEwiGrKz38NKBAxVISWwGHUpUDxsQxiAoA3oECAAQFw';
         return Padding(
